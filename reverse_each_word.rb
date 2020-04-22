@@ -1,3 +1,5 @@
 def reverse_each_word(sentence)
-  sentence.reverse
+  reversed_sentence = []
+  sentence.each do |word|
+    reversed_sentence.push("#{word.reverse}")
 end
